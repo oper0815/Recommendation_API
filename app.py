@@ -99,9 +99,10 @@ def predict3():
     return render_template('output.html', recom = recom, per = per, n = n)     
 
 if __name__ == '__main__':
-    with open('./project_ms/data_dict.pkl', 'rb') as f:     # 경로 수정
+    with open('data_dict.pkl', 'rb') as f:     # 경로 수정
         products_dict = pickle.load(f)
     n1 = list(range(100))
     out = random.sample(n1, 3)
-    model = Word2Vec.load('./project_ms/movie_w2v.model')   # 경로 수정
+    # out = [4, 14, 53] # 이미지를 위해 미리 지정
+    model = Word2Vec.load('movie_w2v.model')   # 경로 수정
     app.run(host="0.0.0.0", port=9090)
