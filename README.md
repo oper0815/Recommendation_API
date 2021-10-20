@@ -4,10 +4,11 @@
 2) Flask를 통한 실시간 inference
 3) 웹 페이지 만들기
 
-Run
-   python app.py
-   
-   http://localhost:9090/check 
+'''
+**Run**
+python app.py
+http://localhost:9090/check 
+'''
 * * *
 
 ### 1. Item2vec을 통한 콘텐츠 추천 모델 생성
