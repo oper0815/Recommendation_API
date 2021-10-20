@@ -5,8 +5,9 @@
 3) 웹 페이지 만들기
 
 Run
-  python app.py
-  http://localhost:9090/check 
+   python app.py
+   
+   http://localhost:9090/check 
 * * *
 
 ### 1. Item2vec을 통한 콘텐츠 추천 모델 생성
@@ -18,10 +19,10 @@ Run
 * recommendation_word2vec.ipynb를 참고해주세요.
 
 ### 2. Flask를 통한 실시간 inference
-###### Flask 
 * 가장 기본적인 Flask 기능을 사용했으며, 사용자에게 콘텐츠 선택을 유도할 콘텐츠 풀을 생성합니다.
 * 실시간 Inference를 위해 dictionary와 모델을 띄웁니다.
 * app.py를 참고해주세요.
+* 
 ### 3. Bootstrap, Jinja2로 웹에 띄우기
 * 기본 HTML 보다는 Bootstrap을 통해 보다 나은 UI 제공
 * Jinja2를 통해 파이썬 코드를 HTML에 적용하였습니다.
