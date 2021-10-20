@@ -5,7 +5,7 @@
 3) 웹 페이지 만들기
 
 ```
-**Run**
+Run
 python app.py
 http://localhost:9090/check 
 ```
